@@ -1,6 +1,9 @@
 /*////////////// Fonts //////////////*/
 
-/* link the web font used for the level 1 heading here */
+@font-face {
+	font-family: Baskerville;
+	src: fonts/Baskerville.tcc
+}
 
 /*////////// Global Styles //////////*/
 
@@ -20,11 +23,18 @@ body {
 /* Write all remaining styles here */
 
 h1{
+	font-family: Baskerville, serif;
+	font-size: 5em;
+	font-weight: normal;
 	color: RGB(156	175	169);
+	padding-bottom: 10px;
+	margin: 0 0 5x;
+	border-bottom: 1px solid #ccc;
 }
 
 h2{
 	color: RGB(109	128	124);
+	font-size: 2em;
 }
 
 img {
@@ -35,6 +45,10 @@ img {
 
 .press {
 	border-color: RGB(202	202	202);
+}
+
+a:hover {
+	decoration: underline;
 }
 
 a img:hover {
