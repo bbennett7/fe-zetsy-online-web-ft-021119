@@ -51,6 +51,14 @@ img {
 	padding-bottom: 15px;
 }
 
+a:link {
+	text-decoration: none;
+}
+
+p a:hover{
+	text-decoration: underline;
+}
+
 a img:hover {
 	border-color: RGB(112	129	123);
 }
