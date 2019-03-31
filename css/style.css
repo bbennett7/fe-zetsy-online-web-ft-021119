@@ -36,3 +36,11 @@ img {
 .press {
 	border-color: RGB(202	202	202);
 }
+
+a img:hover {
+	border-color: RGB(112	129	123);
+}
+
+footer {
+	float: right;
+}
